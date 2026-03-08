@@ -1,0 +1,17 @@
+gradio
+litellm==1.66.3
+google-adk[database]==0.3.0
+reportlab
+chromadb
+python-dotenv
+dateparser
+pandas
+plotly
+requests
+boto3
+aiosqlite
+greenlet
+deprecated
+google-generativeai==0.8.5
+yfinance==0.2.56
+psutil==5.9.5

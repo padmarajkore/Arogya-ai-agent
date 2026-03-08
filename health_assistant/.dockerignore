@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Local Database
+*.db
+health_session_state.db
+health_assistant.db
+data/
+
+# Environment variables
+.env
+
+# ChromaDB local storage (if any)
+chroma_db/
+vector_store/
+
+# IDEs and Mac system files
+.DS_Store
+.vscode/
+.idea/
+
+# Downloaded files/reports
+reports/
+*.pdf

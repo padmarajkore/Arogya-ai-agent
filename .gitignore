@@ -1,0 +1,42 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Tools
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Databases & Persisted Data
+*.db
+*.sqlite3
+data/
+chroma_db/
+vector_store/
+health_session_state.db
+
+# Output & Reports
+health_reports/
+reports/
+*.pdf
+
+# Audio & Media
+sounds/

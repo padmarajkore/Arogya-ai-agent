@@ -1,0 +1,861 @@
+{
+    "doctors": [
+        {
+            "id": "doc001",
+            "name": "Dr. Rohan Mehta",
+            "specialty": "Cardiologist",
+            "hospital": "Apollo Hospital",
+            "city": "Mumbai",
+            "experience_years": 18,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Stress Test",
+                "Holter Monitor",
+                "Angioplasty Suite"
+            ],
+            "phone": "+91-22-6620-0000",
+            "rating": 4.8,
+            "feedback_count": 212
+        },
+        {
+            "id": "doc002",
+            "name": "Dr. Priya Nair",
+            "specialty": "Diabetologist",
+            "hospital": "Lilavati Hospital",
+            "city": "Mumbai",
+            "experience_years": 12,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Insulin Pump",
+                "Foot Doppler"
+            ],
+            "phone": "+91-22-2675-1000",
+            "rating": 4.6,
+            "feedback_count": 178
+        },
+        {
+            "id": "doc003",
+            "name": "Dr. Arjun Desai",
+            "specialty": "Orthopedist",
+            "hospital": "Kokilaben Hospital",
+            "city": "Mumbai",
+            "experience_years": 20,
+            "equipment": [
+                "X-Ray",
+                "MRI",
+                "CT Scan",
+                "Arthroscope",
+                "Bone Density Scanner"
+            ],
+            "phone": "+91-22-3099-9999",
+            "rating": 4.7,
+            "feedback_count": 310
+        },
+        {
+            "id": "doc004",
+            "name": "Dr. Sneha Kulkarni",
+            "specialty": "Neurologist",
+            "hospital": "Breach Candy Hospital",
+            "city": "Mumbai",
+            "experience_years": 15,
+            "equipment": [
+                "EEG",
+                "EMG",
+                "MRI",
+                "Nerve Conduction Study"
+            ],
+            "phone": "+91-22-2367-5555",
+            "rating": 4.5,
+            "feedback_count": 145
+        },
+        {
+            "id": "doc005",
+            "name": "Dr. Farhan Sheikh",
+            "specialty": "General Physician",
+            "hospital": "Wockhardt Hospital",
+            "city": "Mumbai",
+            "experience_years": 10,
+            "equipment": [
+                "Blood Pressure Monitor",
+                "Glucometer",
+                "ECG",
+                "Pulse Oximeter",
+                "Spirometer"
+            ],
+            "phone": "+91-22-6178-8888",
+            "rating": 4.4,
+            "feedback_count": 289
+        },
+        {
+            "id": "doc006",
+            "name": "Dr. Kavita Sharma",
+            "specialty": "Cardiologist",
+            "hospital": "AIIMS Delhi",
+            "city": "Delhi",
+            "experience_years": 22,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Stress Test",
+                "Cardiac Catheter Lab"
+            ],
+            "phone": "+91-11-2659-3308",
+            "rating": 4.9,
+            "feedback_count": 421
+        },
+        {
+            "id": "doc007",
+            "name": "Dr. Vikram Singh",
+            "specialty": "Endocrinologist",
+            "hospital": "Max Hospital Saket",
+            "city": "Delhi",
+            "experience_years": 14,
+            "equipment": [
+                "HbA1c Analyzer",
+                "Thyroid Analyzer",
+                "Bone Density Scanner",
+                "CGM Device"
+            ],
+            "phone": "+91-11-2651-5050",
+            "rating": 4.6,
+            "feedback_count": 199
+        },
+        {
+            "id": "doc008",
+            "name": "Dr. Anita Gupta",
+            "specialty": "Pulmonologist",
+            "hospital": "Fortis Hospital Delhi",
+            "city": "Delhi",
+            "experience_years": 16,
+            "equipment": [
+                "Spirometer",
+                "Bronchoscope",
+                "Sleep Study Lab",
+                "CT Scan",
+                "Pulse Oximeter"
+            ],
+            "phone": "+91-11-4277-6222",
+            "rating": 4.5,
+            "feedback_count": 167
+        },
+        {
+            "id": "doc009",
+            "name": "Dr. Sanjay Verma",
+            "specialty": "Gastroenterologist",
+            "hospital": "Medanta Hospital",
+            "city": "Delhi",
+            "experience_years": 18,
+            "equipment": [
+                "Endoscope",
+                "Colonoscope",
+                "Ultrasound",
+                "ERCP Suite",
+                "CT Scan"
+            ],
+            "phone": "+91-124-4141-414",
+            "rating": 4.7,
+            "feedback_count": 302
+        },
+        {
+            "id": "doc010",
+            "name": "Dr. Neha Bajaj",
+            "specialty": "Dermatologist",
+            "hospital": "Apollo Delhi",
+            "city": "Delhi",
+            "experience_years": 9,
+            "equipment": [
+                "Dermatoscope",
+                "Laser Unit",
+                "Patch Test Kit",
+                "UV Lamp"
+            ],
+            "phone": "+91-11-7179-1090",
+            "rating": 4.4,
+            "feedback_count": 256
+        },
+        {
+            "id": "doc011",
+            "name": "Dr. Suresh Rao",
+            "specialty": "Cardiologist",
+            "hospital": "Manipal Hospital",
+            "city": "Bangalore",
+            "experience_years": 20,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Stress Test",
+                "Cardiac MRI"
+            ],
+            "phone": "+91-80-2502-4444",
+            "rating": 4.8,
+            "feedback_count": 389
+        },
+        {
+            "id": "doc012",
+            "name": "Dr. Divya Krishnan",
+            "specialty": "Diabetologist",
+            "hospital": "Narayana Health",
+            "city": "Bangalore",
+            "experience_years": 11,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Glucometer",
+                "Diabetic Foot Scanner"
+            ],
+            "phone": "+91-80-7122-2200",
+            "rating": 4.5,
+            "feedback_count": 201
+        },
+        {
+            "id": "doc013",
+            "name": "Dr. Karthik Reddy",
+            "specialty": "Orthopedist",
+            "hospital": "Fortis Hospital Bangalore",
+            "city": "Bangalore",
+            "experience_years": 17,
+            "equipment": [
+                "X-Ray",
+                "MRI",
+                "Arthroscope",
+                "3D C-Arm Imaging"
+            ],
+            "phone": "+91-80-6621-4444",
+            "rating": 4.6,
+            "feedback_count": 278
+        },
+        {
+            "id": "doc014",
+            "name": "Dr. Meera Iyer",
+            "specialty": "Neurologist",
+            "hospital": "BGS Gleneagles",
+            "city": "Bangalore",
+            "experience_years": 13,
+            "equipment": [
+                "EEG",
+                "MRI",
+                "EMG",
+                "TMS Machine"
+            ],
+            "phone": "+91-80-4995-4444",
+            "rating": 4.4,
+            "feedback_count": 134
+        },
+        {
+            "id": "doc015",
+            "name": "Dr. Rahul Bhat",
+            "specialty": "General Physician",
+            "hospital": "Columbia Asia Hospital",
+            "city": "Bangalore",
+            "experience_years": 8,
+            "equipment": [
+                "ECG",
+                "Blood Pressure Monitor",
+                "Glucometer",
+                "Pulse Oximeter"
+            ],
+            "phone": "+91-80-3989-9999",
+            "rating": 4.3,
+            "feedback_count": 312
+        },
+        {
+            "id": "doc016",
+            "name": "Dr. Venkat Krishnaswamy",
+            "specialty": "Cardiologist",
+            "hospital": "Apollo Chennai",
+            "city": "Chennai",
+            "experience_years": 25,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Cardiac Catheter Lab",
+                "PET Scan"
+            ],
+            "phone": "+91-44-2829-3333",
+            "rating": 4.9,
+            "feedback_count": 445
+        },
+        {
+            "id": "doc017",
+            "name": "Dr. Lakshmi Sundaram",
+            "specialty": "Diabetologist",
+            "hospital": "Fortis Malar Chennai",
+            "city": "Chennai",
+            "experience_years": 14,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Retinal Scanner",
+                "Foot Pressure Mapping"
+            ],
+            "phone": "+91-44-4289-2222",
+            "rating": 4.6,
+            "feedback_count": 187
+        },
+        {
+            "id": "doc018",
+            "name": "Dr. Murali Subramanian",
+            "specialty": "Gastroenterologist",
+            "hospital": "Kauvery Hospital",
+            "city": "Chennai",
+            "experience_years": 19,
+            "equipment": [
+                "Endoscope",
+                "Colonoscope",
+                "Fibroscan",
+                "CT Scan",
+                "Ultrasound"
+            ],
+            "phone": "+91-44-4000-6000",
+            "rating": 4.7,
+            "feedback_count": 231
+        },
+        {
+            "id": "doc019",
+            "name": "Dr. Padmini Rajan",
+            "specialty": "Pulmonologist",
+            "hospital": "MGM Healthcare",
+            "city": "Chennai",
+            "experience_years": 16,
+            "equipment": [
+                "Spirometer",
+                "Bronchoscope",
+                "Sleep Study Lab",
+                "Pulse Oximeter"
+            ],
+            "phone": "+91-44-4524-2424",
+            "rating": 4.5,
+            "feedback_count": 156
+        },
+        {
+            "id": "doc020",
+            "name": "Dr. Ashwin Chandrasekaran",
+            "specialty": "Neurologist",
+            "hospital": "SIMS Hospital",
+            "city": "Chennai",
+            "experience_years": 12,
+            "equipment": [
+                "EEG",
+                "MRI",
+                "EMG",
+                "Nerve Conduction Study"
+            ],
+            "phone": "+91-44-4900-5900",
+            "rating": 4.4,
+            "feedback_count": 129
+        },
+        {
+            "id": "doc021",
+            "name": "Dr. Srikanth Rao",
+            "specialty": "Cardiologist",
+            "hospital": "Yashoda Hospital",
+            "city": "Hyderabad",
+            "experience_years": 21,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Stress Test",
+                "Cardiac MRI",
+                "Angiography"
+            ],
+            "phone": "+91-40-4567-7777",
+            "rating": 4.8,
+            "feedback_count": 367
+        },
+        {
+            "id": "doc022",
+            "name": "Dr. Ananya Reddy",
+            "specialty": "Endocrinologist",
+            "hospital": "Care Hospital",
+            "city": "Hyderabad",
+            "experience_years": 13,
+            "equipment": [
+                "HbA1c Analyzer",
+                "Thyroid Analyzer",
+                "CGM Device",
+                "DEXA Scan"
+            ],
+            "phone": "+91-40-3041-5678",
+            "rating": 4.6,
+            "feedback_count": 204
+        },
+        {
+            "id": "doc023",
+            "name": "Dr. Prasad Naidu",
+            "specialty": "Orthopedist",
+            "hospital": "Kamineni Hospital",
+            "city": "Hyderabad",
+            "experience_years": 18,
+            "equipment": [
+                "X-Ray",
+                "MRI",
+                "CT Scan",
+                "Arthroscope"
+            ],
+            "phone": "+91-40-3992-0000",
+            "rating": 4.5,
+            "feedback_count": 290
+        },
+        {
+            "id": "doc024",
+            "name": "Dr. Usha Murthy",
+            "specialty": "Dermatologist",
+            "hospital": "Rainbow Hospital",
+            "city": "Hyderabad",
+            "experience_years": 10,
+            "equipment": [
+                "Dermatoscope",
+                "Laser Unit",
+                "Phototherapy Unit"
+            ],
+            "phone": "+91-40-4447-7777",
+            "rating": 4.4,
+            "feedback_count": 178
+        },
+        {
+            "id": "doc025",
+            "name": "Dr. Rajiv Teja",
+            "specialty": "General Physician",
+            "hospital": "Apollo Hyderabad",
+            "city": "Hyderabad",
+            "experience_years": 9,
+            "equipment": [
+                "ECG",
+                "Glucometer",
+                "Blood Pressure Monitor",
+                "Pulse Oximeter",
+                "Spirometer"
+            ],
+            "phone": "+91-40-2360-7777",
+            "rating": 4.3,
+            "feedback_count": 341
+        },
+        {
+            "id": "doc026",
+            "name": "Dr. Abhijit Banerjee",
+            "specialty": "Cardiologist",
+            "hospital": "AMRI Hospital",
+            "city": "Kolkata",
+            "experience_years": 24,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Cardiac Catheter Lab",
+                "Stress Test"
+            ],
+            "phone": "+91-33-2520-2020",
+            "rating": 4.8,
+            "feedback_count": 398
+        },
+        {
+            "id": "doc027",
+            "name": "Dr. Debabrata Ghosh",
+            "specialty": "Neurologist",
+            "hospital": "Fortis Kolkata",
+            "city": "Kolkata",
+            "experience_years": 17,
+            "equipment": [
+                "EEG",
+                "MRI",
+                "EMG",
+                "Nerve Conduction Study"
+            ],
+            "phone": "+91-33-6628-4545",
+            "rating": 4.6,
+            "feedback_count": 167
+        },
+        {
+            "id": "doc028",
+            "name": "Dr. Ruma Sen",
+            "specialty": "Diabetologist",
+            "hospital": "Medica Superspecialty",
+            "city": "Kolkata",
+            "experience_years": 12,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Foot Doppler",
+                "Retinal Scanner"
+            ],
+            "phone": "+91-33-6652-0000",
+            "rating": 4.5,
+            "feedback_count": 195
+        },
+        {
+            "id": "doc029",
+            "name": "Dr. Saurav Chatterjee",
+            "specialty": "Gastroenterologist",
+            "hospital": "Peerless Hospital",
+            "city": "Kolkata",
+            "experience_years": 15,
+            "equipment": [
+                "Endoscope",
+                "Colonoscope",
+                "Fibroscan",
+                "Ultrasound"
+            ],
+            "phone": "+91-33-4011-2222",
+            "rating": 4.4,
+            "feedback_count": 213
+        },
+        {
+            "id": "doc030",
+            "name": "Dr. Moumita Roy",
+            "specialty": "Dermatologist",
+            "hospital": "Apollo Kolkata",
+            "city": "Kolkata",
+            "experience_years": 8,
+            "equipment": [
+                "Dermatoscope",
+                "Laser Unit",
+                "Cryotherapy Unit"
+            ],
+            "phone": "+91-33-2320-2020",
+            "rating": 4.3,
+            "feedback_count": 156
+        },
+        {
+            "id": "doc031",
+            "name": "Dr. Shirish Patil",
+            "specialty": "Cardiologist",
+            "hospital": "Ruby Hall Clinic",
+            "city": "Pune",
+            "experience_years": 19,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Cardiac Catheter Lab",
+                "Holter Monitor"
+            ],
+            "phone": "+91-20-6645-5555",
+            "rating": 4.7,
+            "feedback_count": 334
+        },
+        {
+            "id": "doc032",
+            "name": "Dr. Swati Joshi",
+            "specialty": "Diabetologist",
+            "hospital": "Jehangir Hospital",
+            "city": "Pune",
+            "experience_years": 11,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Glucometer",
+                "Foot Pressure Scanner"
+            ],
+            "phone": "+91-20-6681-5555",
+            "rating": 4.5,
+            "feedback_count": 188
+        },
+        {
+            "id": "doc033",
+            "name": "Dr. Nikhil Gokhale",
+            "specialty": "Orthopedist",
+            "hospital": "KEM Hospital Pune",
+            "city": "Pune",
+            "experience_years": 16,
+            "equipment": [
+                "X-Ray",
+                "MRI",
+                "CT Scan",
+                "Arthroscope",
+                "Bone Density Scanner"
+            ],
+            "phone": "+91-20-2612-8000",
+            "rating": 4.6,
+            "feedback_count": 267
+        },
+        {
+            "id": "doc034",
+            "name": "Dr. Vandana Kulkarni",
+            "specialty": "Pulmonologist",
+            "hospital": "Poona Hospital",
+            "city": "Pune",
+            "experience_years": 14,
+            "equipment": [
+                "Spirometer",
+                "Bronchoscope",
+                "Pulse Oximeter",
+                "Sleep Study Lab"
+            ],
+            "phone": "+91-20-2445-5555",
+            "rating": 4.4,
+            "feedback_count": 143
+        },
+        {
+            "id": "doc035",
+            "name": "Dr. Amit Shinde",
+            "specialty": "General Physician",
+            "hospital": "Sahyadri Hospital",
+            "city": "Pune",
+            "experience_years": 7,
+            "equipment": [
+                "ECG",
+                "Glucometer",
+                "Blood Pressure Monitor",
+                "Pulse Oximeter"
+            ],
+            "phone": "+91-20-6721-0000",
+            "rating": 4.3,
+            "feedback_count": 298
+        },
+        {
+            "id": "doc036",
+            "name": "Dr. Chirag Shah",
+            "specialty": "Cardiologist",
+            "hospital": "Apollo Ahmedabad",
+            "city": "Ahmedabad",
+            "experience_years": 20,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Stress Test",
+                "Cardiac MRI"
+            ],
+            "phone": "+91-79-6677-7777",
+            "rating": 4.7,
+            "feedback_count": 312
+        },
+        {
+            "id": "doc037",
+            "name": "Dr. Hetal Patel",
+            "specialty": "Diabetologist",
+            "hospital": "SAL Hospital",
+            "city": "Ahmedabad",
+            "experience_years": 13,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Foot Doppler",
+                "Retinal Scanner"
+            ],
+            "phone": "+91-79-2771-5555",
+            "rating": 4.6,
+            "feedback_count": 221
+        },
+        {
+            "id": "doc038",
+            "name": "Dr. Mahesh Trivedi",
+            "specialty": "Neurologist",
+            "hospital": "Sterling Hospital",
+            "city": "Ahmedabad",
+            "experience_years": 15,
+            "equipment": [
+                "EEG",
+                "MRI",
+                "EMG",
+                "TMS Machine"
+            ],
+            "phone": "+91-79-4001-5555",
+            "rating": 4.5,
+            "feedback_count": 148
+        },
+        {
+            "id": "doc039",
+            "name": "Dr. Rima Dave",
+            "specialty": "Dermatologist",
+            "hospital": "Zydus Hospital",
+            "city": "Ahmedabad",
+            "experience_years": 9,
+            "equipment": [
+                "Dermatoscope",
+                "Laser Unit",
+                "Phototherapy Unit",
+                "Patch Test Kit"
+            ],
+            "phone": "+91-79-6619-0000",
+            "rating": 4.4,
+            "feedback_count": 189
+        },
+        {
+            "id": "doc040",
+            "name": "Dr. Niyati Mehta",
+            "specialty": "General Physician",
+            "hospital": "Shalby Hospital",
+            "city": "Ahmedabad",
+            "experience_years": 8,
+            "equipment": [
+                "ECG",
+                "Glucometer",
+                "Blood Pressure Monitor",
+                "Spirometer"
+            ],
+            "phone": "+91-79-4020-3000",
+            "rating": 4.2,
+            "feedback_count": 276
+        },
+        {
+            "id": "doc041",
+            "name": "Dr. Rajendra Agarwal",
+            "specialty": "Cardiologist",
+            "hospital": "SMS Hospital",
+            "city": "Jaipur",
+            "experience_years": 22,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Stress Test",
+                "Cardiac Catheter Lab"
+            ],
+            "phone": "+91-141-256-0291",
+            "rating": 4.7,
+            "feedback_count": 356
+        },
+        {
+            "id": "doc042",
+            "name": "Dr. Sunita Sharma",
+            "specialty": "Diabetologist",
+            "hospital": "Mahatma Gandhi Hospital",
+            "city": "Jaipur",
+            "experience_years": 14,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Glucometer",
+                "Foot Doppler"
+            ],
+            "phone": "+91-141-511-0000",
+            "rating": 4.5,
+            "feedback_count": 212
+        },
+        {
+            "id": "doc043",
+            "name": "Dr. Pankaj Gupta",
+            "specialty": "Orthopedist",
+            "hospital": "Fortis Jaipur",
+            "city": "Jaipur",
+            "experience_years": 17,
+            "equipment": [
+                "X-Ray",
+                "MRI",
+                "CT Scan",
+                "Arthroscope"
+            ],
+            "phone": "+91-141-254-7878",
+            "rating": 4.6,
+            "feedback_count": 243
+        },
+        {
+            "id": "doc044",
+            "name": "Dr. Preeti Singhania",
+            "specialty": "General Physician",
+            "hospital": "Narayana Hospital Jaipur",
+            "city": "Jaipur",
+            "experience_years": 9,
+            "equipment": [
+                "ECG",
+                "Glucometer",
+                "Blood Pressure Monitor",
+                "Pulse Oximeter"
+            ],
+            "phone": "+91-141-470-1010",
+            "rating": 4.3,
+            "feedback_count": 289
+        },
+        {
+            "id": "doc045",
+            "name": "Dr. Suresh Mittal",
+            "specialty": "Gastroenterologist",
+            "hospital": "Eternal Hospital",
+            "city": "Jaipur",
+            "experience_years": 16,
+            "equipment": [
+                "Endoscope",
+                "Colonoscope",
+                "Ultrasound",
+                "Fibroscan"
+            ],
+            "phone": "+91-141-515-0000",
+            "rating": 4.5,
+            "feedback_count": 198
+        },
+        {
+            "id": "doc046",
+            "name": "Dr. Shailendra Kumar",
+            "specialty": "Cardiologist",
+            "hospital": "Sanjay Gandhi PGI",
+            "city": "Lucknow",
+            "experience_years": 23,
+            "equipment": [
+                "ECG",
+                "Echo Machine",
+                "Cardiac Catheter Lab",
+                "PET Scan"
+            ],
+            "phone": "+91-522-266-8004",
+            "rating": 4.8,
+            "feedback_count": 401
+        },
+        {
+            "id": "doc047",
+            "name": "Dr. Priyanka Singh",
+            "specialty": "Diabetologist",
+            "hospital": "Sahara Hospital",
+            "city": "Lucknow",
+            "experience_years": 12,
+            "equipment": [
+                "HbA1c Analyzer",
+                "CGM Device",
+                "Retinal Scanner",
+                "Foot Pressure Mapping"
+            ],
+            "phone": "+91-522-388-0000",
+            "rating": 4.5,
+            "feedback_count": 198
+        },
+        {
+            "id": "doc048",
+            "name": "Dr. Vivek Srivastava",
+            "specialty": "Neurologist",
+            "hospital": "Medanta Lucknow",
+            "city": "Lucknow",
+            "experience_years": 15,
+            "equipment": [
+                "EEG",
+                "MRI",
+                "EMG",
+                "Nerve Conduction Study"
+            ],
+            "phone": "+91-522-450-2222",
+            "rating": 4.6,
+            "feedback_count": 176
+        },
+        {
+            "id": "doc049",
+            "name": "Dr. Uma Pandey",
+            "specialty": "Pulmonologist",
+            "hospital": "King George Medical University",
+            "city": "Lucknow",
+            "experience_years": 18,
+            "equipment": [
+                "Spirometer",
+                "Bronchoscope",
+                "Pulse Oximeter",
+                "Sleep Study Lab"
+            ],
+            "phone": "+91-522-225-7540",
+            "rating": 4.7,
+            "feedback_count": 223
+        },
+        {
+            "id": "doc050",
+            "name": "Dr. Anand Chaurasia",
+            "specialty": "General Physician",
+            "hospital": "Apollo Lucknow",
+            "city": "Lucknow",
+            "experience_years": 10,
+            "equipment": [
+                "ECG",
+                "Glucometer",
+                "Blood Pressure Monitor",
+                "Pulse Oximeter"
+            ],
+            "phone": "+91-522-398-5500",
+            "rating": 4.3,
+            "feedback_count": 311
+        }
+    ]
+}
